@@ -53,8 +53,10 @@ target_sources(ShaderUtil
   FILE_SET HEADERS 
   BASE_DIRS include
   FILES
-  include/OptiXToolkit/ShaderUtil/color.h
+  include/OptiXToolkit/ShaderUtil/CubicFiltering.h
   include/OptiXToolkit/ShaderUtil/Preprocessor.h
+  include/OptiXToolkit/ShaderUtil/TextureUtil.h
+  include/OptiXToolkit/ShaderUtil/color.h
   include/OptiXToolkit/ShaderUtil/vec_math.h
   )
 
